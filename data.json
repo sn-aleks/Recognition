@@ -1,40 +1,25 @@
-[
-    {
-        "name":"Игуменский тракт", 
-        "microDistrict" :"микр.р-н Лошица", 
-        "district":"р-н Ленинский" 
+[{
+        "name": "Игуменский тракт",
+        "microDistrict": "микр.р-н Лошица",
+        "district": "р-н Ленинский"
     },
 
     {
-        "name":"Рокоссовского", 
-        "microDistrict" :"микр.р-н Серебрянка", 
-        "district":"р-н Ленинский" 
+        "name": "Рокоссовского",
+        "microDistrict": "микр.р-н Серебрянка",
+        "district": "р-н Ленинский"
     },
 
     {
-        "name":"Кижеватова", 
-        "microDistrict" :"микр.р-н Курасовщина", 
-        "district":"р-н Октябрьский" 
+        "name": "Кижеватова",
+        "microDistrict": "микр.р-н Курасовщина",
+        "district": "р-н Октябрьский"
     },
 
     {
-        "name":"тест", 
-        "microDistrict" :"тест1", 
-        "district":"тест2" 
-    },
-
-    {
-        "name":"test", 
-        "microDistrict" :"test1", 
-        "district":"test2" 
-    },
-
-    {
-        "name":"Ванеева", 
-        "microDistrict" :"микр.р-н Серебрянка", 
-        "district":"р-н Ленинский" 
+        "name": "Ванеева",
+        "microDistrict": "микр.р-н Серебрянка",
+        "district": "р-н Ленинский"
     }
 
 ]
-
-
