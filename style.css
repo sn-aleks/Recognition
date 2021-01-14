@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-
 * {
     /* position: absolute; */
     margin: 0%;
     padding: 0%;
     /* box-sizing: border-box; */
-    border-width:  0ch;
-} 
+    border-width: 0ch;
+}
 
 body {
     background-image: url('img/backGroundImg.jpg');
@@ -17,9 +15,9 @@ body {
     position: static;
 }
 
-#reset{ 
-    width:70px;
-    height:70px;
+#reset {
+    width: 70px;
+    height: 70px;
     background-image: url('img/reset.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -29,42 +27,44 @@ body {
     margin-left: 8px;
 }
 
-#reset:hover {    
+#reset:hover {
     position: absolute;
     width: 70px;
     height: 70px;
-    transition: 1s;   
-    transform: rotate(90deg); 
-    box-shadow: 0 0 10px white; /* Параметры тени */
+    transition: 1s;
+    transform: rotate(90deg);
+    box-shadow: 0 0 10px white;
+    /* Параметры тени */
 }
 
-#reset:active { 
-    opacity: 10%; 
+#reset:active {
+    opacity: 10%;
     transition: .1s;
 }
 
-#pokaHZ{
+#pokaHZ {
     width: 100px;
     height: 100px;
-    margin-left:800px;
+    margin-left: 800px;
     position: relative;
 }
 
-#search-form{
+#search-form {
     /* position: absolute; */
     margin-left: auto;
     margin-right: auto;
     height: 150px;
-    width: 500px;  
+    width: 500px;
     background-color: rgba(205, 214, 219, 0.3);
     border-radius: 2%;
-    border-width:  0ch;  
+    border-width: 0ch;
 }
-#files{
+
+#files {
     position: absolute;
     margin-top: 100px;
-    margin-left:120px;
-    background-color : #FC805E ;
+    margin-left: 120px;
+    background-color: #FC805E;
     opacity: 90%;
     border-radius: 2%;
 }
@@ -73,17 +73,17 @@ body {
     padding: 30px 50px;
 }
 
-#inputeSearchForm{
+#inputeSearchForm {
     width: 350px;
     height: 40px;
     margin-left: 30px;
     border-radius: 5%;
     text-align: center;
-    font-size:30px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     color: black;
     position: absolute;
-    margin-top:35px; 
+    margin-top: 35px;
 }
 
 .newDivWithResult {
@@ -92,9 +92,9 @@ body {
 }
 
 .message {
-    width:200px;
-    height:100px;
-    background:gray;
+    width: 200px;
+    height: 100px;
+    background: gray;
     border-radius: 2%;
     margin-left: auto;
     margin-right: auto;
@@ -104,60 +104,56 @@ body {
 }
 
 .close {
-    width:100px;
-    height:30px;
-    background : white;
+    width: 100px;
+    height: 30px;
+    background: white;
     color: #025677;
     border-radius: 5%;
-   
-    
-   
     text-align: center;
     margin-top: 20px;
-
-    margin-bottom: 50px; 
-     
+    margin-bottom: 50px;
 }
 
 .close:hover {
-    background :gold;
+    background: gold;
 }
 
-.container{
-    margin : 10px 0%; 
+.container {
+    margin: 10px 0%;
 }
 
-.btnMicrophone{
+.btnMicrophone {
     width: 70px;
     height: 70px;
     border-radius: 15%;
     position: absolute;
     margin-left: 400px;
-    margin-top:20px;
-    border-width:  0ch;
+    margin-top: 20px;
+    border-width: 0ch;
 }
 
-.btnMicrophone:hover{
-    background :white;
+.btnMicrophone:hover {
+    background: white;
     width: 70px;
     height: 70px;
-    box-shadow: 0 0 10px rgb(228, 87, 5); /* Параметры тени */
+    box-shadow: 0 0 10px rgb(228, 87, 5);
+    /* Параметры тени */
     padding: 10px;
 }
 
-#btnMicrophone:active{
-    opacity: 10%; 
+#btnMicrophone:active {
+    opacity: 10%;
     transition: 1s;
 }
 
 #btnInform {
     position: absolute;
     width: 80px;
-    height: 80px;    
+    height: 80px;
     background-image: url('img/attention.png');
     background-size: contain;
     background-repeat: no-repeat;
-    border-radius: 20%; 
+    border-radius: 20%;
     background-color: rgba(205, 214, 219, 0.1);
 }
 
@@ -165,18 +161,18 @@ body {
     position: absolute;
     width: 80px;
     height: 80px;
-    transition: 0.7s;    
+    transition: 0.7s;
     /* transform: rotate(45deg); */
-    box-shadow: 0 0 10px white; /* Параметры тени */   
+    box-shadow: 0 0 10px white;
+    /* Параметры тени */
 }
 
-#btnInform:active { 
-  
-    opacity: 10%; 
+#btnInform:active {
+    opacity: 10%;
     transition: .1s;
 }
 
-.Infomassege{
+.Infomassege {
     width: 100%;
     height: 100%;
     display: block;
@@ -184,14 +180,11 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: rgba(205, 214, 219, 0.6);
-  
-    
-    
 }
 
 #toRead {
     margin-left: 110px;
-    margin-top:5px;
+    margin-top: 5px;
     position: absolute;
     background-color: rgba(205, 214, 219, 0.3);
     width: 240px;
@@ -199,6 +192,5 @@ body {
     border-radius: 2%;
     text-align: center;
     text-shadow: 10ch;
-    padding-top:16px ;
+    padding-top: 16px;
 }
-
