@@ -1,5 +1,5 @@
 const searchForm = document.querySelector("#search-form");
-const searchFormInput = searchForm.querySelector("input");
+const searchFormInput = searchForm.querySelector("#files");
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 let globalText;
 let distCity;
@@ -19,7 +19,7 @@ function handleFileSelect(evt) {
     }
 }
 
-function createMainInpute() {
+function createMainInput() {
     let c = document.createElement('input');
     let input = document.querySelector("#search-form");
     c.className = "inputeSearchForm";
@@ -30,7 +30,7 @@ function createMainInpute() {
     input.append(c);
 };
 
-function checkextension() {
+function checkExtension() {
     disabledBtnInform();
     var file = document.querySelector("#files");
     if (/\.(json)$/i.test(file.files[0].name) === false) {
@@ -38,7 +38,7 @@ function checkextension() {
         renderInfoBlock(text);
     } else {
         removeButtonAddFile();
-        createMainInpute();
+        createMainInput();
     }
 };
 

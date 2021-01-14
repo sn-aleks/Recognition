@@ -42,7 +42,7 @@ body {
     transition: .1s;
 }
 
-#pokaHZ {
+#hidden {
     width: 100px;
     height: 100px;
     margin-left: 800px;
@@ -182,7 +182,7 @@ body {
     background-color: rgba(205, 214, 219, 0.6);
 }
 
-#toRead {
+#help {
     margin-left: 110px;
     margin-top: 5px;
     position: absolute;
